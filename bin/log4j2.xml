@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+ <Appenders>
+  <Console name="STDOUT" target="SYSTEM_OUT">
+   <PatternLayout pattern="%d %-5p [%t] %l - %m%n" />
+  </Console>
+  <File name="File" fileName="my.log">
+   <PatternLayout pattern="%m%n" />
+  </File>
+ <!--  <RollingFile name="RollingFile" fileName="dist/my2.log" 
+
+   filePattern="dist/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+   <PatternLayout pattern="[%-5p] %d %c - %m%n" />
+   <Policies>
+    <TimeBasedTriggeringPolicy />
+    <SizeBasedTriggeringPolicy size="2 KB" />
+   </Policies>
+   <DefaultRolloverStrategy max="20" />
+  </RollingFile> -->
+ </Appenders>
+ <Loggers>
+  <Root level="Info">
+   <AppenderRef ref="STDOUT" />
+  </Root>
+ </Loggers>
+ <Loggers>
+  <Logger name="cim_xml.Main" level="info" additivity="true">-
+   <AppenderRef ref="File" />
+<!--    <AppenderRef ref="RollingFile" /> -->
+	<AppenderRef ref="STDOUT" />
+  </Logger>
+ </Loggers>
+</Configuration>
+

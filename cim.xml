@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/2003/CIM-schema-cim10#" xmlns:cimEx="http://dongfang-china.com/UAI#">
+  <cim:PSRType rdf:ID="PSRType-1">
+    <cim:Naming.name>内网</cim:Naming.name>
+    <cim:Naming.description>内网</cim:Naming.description>
+  </cim:PSRType>
+  <cim:PSRType rdf:ID="PSRType-2">
+    <cim:Naming.name>外网</cim:Naming.name>
+    <cim:Naming.description>外网</cim:Naming.description>
+  </cim:PSRType>
+  <cim:ACLineSegment rdf:ID="kgyx-kc-t1">
+    <cim:Naming.name>kgyx-kc-t1</cim:Naming.name>
+    <cim:Naming.description>科高乙线_科城_T1</cim:Naming.description>
+    <cim:Conductor.r>0.219300</cim:Conductor.r>
+    <cim:Conductor.x>0.795600</cim:Conductor.x>
+    <cim:Conductor.bch>0.007900</cim:Conductor.bch>
+    <cim:Conductor.r0>0.315500</cim:Conductor.r0>
+    <cim:Conductor.x0>2.436800</cim:Conductor.x0>
+    <cim:Conductor.b0ch>0.115300</cim:Conductor.b0ch>
+    <cim:Conductor.length>2.525000</cim:Conductor.length>
+    <cimEx:ACLineSegment.ratedCurrent>625.000000</cimEx:ACLineSegment.ratedCurrent>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#BV-4"/>
+    <cimEx:ACLineSegment.FromSubstation rdf:resource="#SS-kecheng"/>
+    <cimEx:ACLineSegment.ToSubstation rdf:resource="#SS-T1"/>
+    <cim:Equipment.MemberOf_EquipmentContainer rdf:resource="#kgyx-kc-t1_Line"/>
+    <cim:ConductingEquipment.Terminals rdf:resource="#TE-46239"/>
+    <cim:ConductingEquipment.Terminals rdf:resource="#TE-46240"/>
+	</cim:ACLineSegment>
+</rdf:RDF>

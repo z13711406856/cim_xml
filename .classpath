@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="F:/g各种PDF/java/dom4j-1.6.1/dom4j-1.6.1/dom4j-1.6.1.jar" sourcepath="F:/g各种PDF/java/dom4j-1.6.1/dom4j-1.6.1/src"/>
+	<classpathentry kind="lib" path="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-api-2.5.jar" sourcepath="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-api-2.5-sources.jar"/>
+	<classpathentry kind="lib" path="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-core-2.5.jar" sourcepath="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-core-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/app/Administrator/product/11.2.0/client_2/oui/jlib/classes12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
