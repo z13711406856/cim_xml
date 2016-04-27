@@ -1,5 +1,6 @@
 package cim_xml;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
@@ -33,10 +34,9 @@ public class CimXml implements ElementHandler{
 	private int num=1;
 	private AnalyzeMode analyzeMode=null;
 	private Connection con=null;
-	private URL url=null;
+	private File url=null;
 	private static CimObject cimObj=null;
-	CimXml(URL url){
-		this.url=url;
+	CimXml(){
 	}
 	public void buildTableSAX() throws DocumentException{
 		SAXReader reader=new SAXReader();
@@ -267,5 +267,14 @@ public class CimXml implements ElementHandler{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	public void setUrl(File url) {
+		this.url = url;
+	}
+	public Map<String, Integer> getRecordCount() {
+		return recordCount;
+	}
+	public void setDistinctTableMap(Map<String, CimObject> distinctTableMap) {
+		this.distinctTableMap = distinctTableMap;
 	}
 }

@@ -6,5 +6,18 @@
 	<classpathentry kind="lib" path="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-api-2.5.jar" sourcepath="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-api-2.5-sources.jar"/>
 	<classpathentry kind="lib" path="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-core-2.5.jar" sourcepath="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-core-2.5.jar"/>
 	<classpathentry kind="lib" path="D:/app/Administrator/product/11.2.0/client_2/oui/jlib/classes12.jar"/>
+		<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.osgi_3.10.0.v20140606-1445.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.osgi_3.10.0.v20140606-1445.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.core.commands_3.6.100.v20140528-1422.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.core.commands_3.6.100.v20140528-1422.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.equinox.registry_3.5.400.v20140428-1507.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.equinox.registry_3.5.400.v20140428-1507.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.text_3.5.300.v20130515-1451.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.text_3.5.300.v20130515-1451.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.jface_3.10.0.v20140604-0740.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.jface_3.10.0.v20140604-0740.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.jface.text_3.9.0.v20140521-1657.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.jface.text_3.9.0.v20140521-1657.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.ui.workbench_3.106.0.v20140530-0732.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.ui.workbench_3.106.0.v20140530-0732.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/com.ibm.icu_52.1.0.v201404241930.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/com.ibm.icu_52.1.0.v201404241930.jar"/>
+	<classpathentry kind="lib" path="F:/eclipse64_jee/eclipse/plugins/org.eclipse.ui.forms_3.6.100.v20140422-1825.jar" sourcepath="F:/eclipse64_jee/eclipse/plugins/org.eclipse.ui.forms_3.6.100.v20140422-1825.jar"/>
+	<classpathentry kind="lib" path="swing2swt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
