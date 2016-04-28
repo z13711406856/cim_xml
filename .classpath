@@ -5,7 +5,7 @@
 	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/classes12.jar"/>
 	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/com.ibm.icu_52.1.0.v201404241930.jar"/>
 	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/log4j-api-2.5.jar"/>
+	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/log4j-api-2.5.jar" sourcepath="F:/g各种PDF/java/apache-log4j-2.5-bin/apache-log4j-2.5-bin/log4j-api-2.5-sources.jar"/>
 	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/log4j-core-2.5.jar"/>
 	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/org.eclipse.core.commands_3.6.100.v20140528-1422.jar"/>
 	<classpathentry kind="lib" path="F:/workspace_j2ee_64/cim_xml/lib/org.eclipse.core.runtime_3.10.0.v20140318-2214.jar"/>

@@ -1,0 +1,6 @@
+#
+#Fri Apr 29 01:33:58 CST 2016
+cimPath=F\:\\workspace_j2ee_64\\cim_xml\\cim.xml
+account=scott
+connectString=jdbc\:oracle\:thin\:@192.168.79.131\:1521\:orcl
+sqlPath=F\:\\workspace_j2ee_64\\cim_xml\\createTable.sql

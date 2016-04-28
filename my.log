@@ -46,3 +46,49 @@ objectNum: 4
 objectNum: 5
 objectNum: 6
 take 48s
+take 5s
+take 284s
+take 21s
+objectNum: 1
+objectNum: 2
+objectNum: 3
+take 12s
+take 13s
+take 2s
+objectNum: 1
+objectNum: 2
+objectNum: 3
+objectNum: 1
+objectNum: 2
+objectNum: 3
+objectNum: 4
+objectNum: 5
+objectNum: 6
+调用中无效的参数
+java.sql.SQLException: 调用中无效的参数
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:189) ~[classes12.jar:?]
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java:231) ~[classes12.jar:?]
+	at oracle.jdbc.dbaccess.DBError.check_error(DBError.java:985) ~[classes12.jar:?]
+	at oracle.jdbc.ttc7.TTC7Protocol.logon(TTC7Protocol.java:198) ~[classes12.jar:?]
+	at oracle.jdbc.driver.OracleConnection.<init>(OracleConnection.java:374) ~[classes12.jar:?]
+	at oracle.jdbc.driver.OracleDriver.getConnectionInstance(OracleDriver.java:515) ~[classes12.jar:?]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:345) ~[classes12.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:571) ~[?:1.7.0_51]
+	at java.sql.DriverManager.getConnection(DriverManager.java:215) ~[?:1.7.0_51]
+	at cim_xml.Main$4.mouseDown(Main.java:240) [bin/:?]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:192) [org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar:?]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar:?]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353) [org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar:?]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061) [org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar:?]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172) [org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar:?]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761) [org.eclipse.swt.win32.win32.x86_64_3.103.0.v20140605-2012.jar:?]
+	at cim_xml.Main.begin(Main.java:301) [bin/:?]
+	at cim_xml.Main.main(Main.java:48) [bin/:?]
+objectNum: 1
+objectNum: 2
+objectNum: 3
+take 38s
+objectNum: 1
+objectNum: 2
+objectNum: 3
+take 9s
